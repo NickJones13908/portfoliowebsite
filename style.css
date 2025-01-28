@@ -91,6 +91,40 @@ section{
     min-height: 100vh;
     padding: 5rem 9% 5rem;
 }
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: black;
+}
+.projects .projects-content h1{
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+span{
+    color: #b74b4b;
+}
+.projects-content h3{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+.projects-content p{
+    font-size: 1.6rem;
+    margin-top: 6rem;
+}
+.projects-content a{
+    font-size: 2rem;
+    color: #b74b4b;
+}
+.projects-content h4{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
 .home{
     display: flex;
     justify-content: center;
